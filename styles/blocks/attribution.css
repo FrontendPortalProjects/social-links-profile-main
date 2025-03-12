@@ -1,0 +1,22 @@
+.attribution {
+  font-size: 12px;
+  text-align: center;
+  background-color: var(--color-gray-800);
+  padding-block: 10px;
+  font-weight: 600;
+}
+
+.attribution a {
+  color: var(--color-green);
+  transition-duration: .2s;
+}
+
+.attribution a:hover {
+  color: var(--color-white);
+}
+
+@media (max-width: 376px) {
+  .attribution {
+    font-size: 10px;
+  }
+}
